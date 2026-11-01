@@ -1,0 +1,6 @@
+{
+  "name": "CyberDash FPS",
+  "description": "Retro-modern 2.5D parkour shooting game featuring fluid wall-running, sliding, vertical auto-aim, billboarding sprites, and intense cyber combat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

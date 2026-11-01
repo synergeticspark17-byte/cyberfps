@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Targeting Crosshair / Reticle in background of foreground layer -->
+    <path
+        android:pathData="M54,26 L54,34 M54,74 L54,82 M26,54 L34,54 M74,54 L82,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FF007F"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M38,54 A16,16 0 1,1 70,54 A16,16 0 1,1 38,54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#3300F5FF" />
+
+    <!-- Motion trails behind runner -->
+    <path
+        android:pathData="M30,58 L46,55 M24,66 L42,62 M28,74 L48,70"
+        android:strokeWidth="2.2"
+        android:strokeColor="#00F5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Stylized Runner Silhouette: Leaping forward, angled pose -->
+    <!-- Head / Visor -->
+    <path
+        android:pathData="M60,33 L67,31 L69,37 L63,40 Z"
+        android:fillColor="#00F5FF" />
+    <!-- Helmet -->
+    <path
+        android:pathData="M57,30 L65,28 L68,34 L62,38 L56,36 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Torso / Armor Body -->
+    <path
+        android:pathData="M52,38 L62,37 L66,52 L54,54 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Cyber Chest Core (Hot Pink) -->
+    <path
+        android:pathData="M57,42 L62,41 L61,47 L56,48 Z"
+        android:fillColor="#FF007F" />
+
+    <!-- Front Arm holding futuristic Energy Blaster / Weapon -->
+    <path
+        android:pathData="M60,43 L72,46 L73,43 L68,39 Z"
+        android:fillColor="#ECEFF1" />
+    <!-- Weapon Body -->
+    <path
+        android:pathData="M70,42 L84,41 L85,46 L78,48 L71,47 Z"
+        android:fillColor="#00F5FF" />
+    <!-- Weapon Barrel & Muzzle Glow -->
+    <path
+        android:pathData="M84,42 L88,42 L88,44 L84,44 Z"
+        android:fillColor="#FFEB3B" />
+    <path
+        android:pathData="M88,43 L93,43"
+        android:strokeWidth="2"
+        android:strokeColor="#FFEB3B"
+        android:strokeLineCap="round" />
+
+    <!-- Back Arm for sprint balance -->
+    <path
+        android:pathData="M53,40 L45,36 L43,40 L49,45 Z"
+        android:fillColor="#90A4AE" />
+
+    <!-- Front Leg (bent forward in parkour leap) -->
+    <path
+        android:pathData="M61,52 L68,63 L65,65 L57,54 Z"
+        android:fillColor="#ECEFF1" />
+    <!-- Lower Front Leg & Cyber Boot -->
+    <path
+        android:pathData="M68,63 L74,74 L69,76 L64,65 Z"
+        android:fillColor="#00F5FF" />
+
+    <!-- Back Leg (extended backwards in jump) -->
+    <path
+        android:pathData="M53,53 L42,64 L38,61 L49,51 Z"
+        android:fillColor="#90A4AE" />
+    <!-- Lower Back Leg & Foot trailing -->
+    <path
+        android:pathData="M40,63 L31,70 L28,67 L37,60 Z"
+        android:fillColor="#FF007F" />
+</vector>
